@@ -8,7 +8,7 @@
 .main-content{
   display: grid;
   grid-template-columns: 25vw 25vw;
-  grid-template-rows: 1fr 15vh 10vh;
+  grid-template-rows: 18vh 10vh 7vh;
   justify-self: center;
   align-self: center;
   position: absolute;
@@ -21,7 +21,7 @@
   margin: auto;
 }
 .Logo img{
-  height: 20vh;
+  height: 15vh;
   text-align: center;}
 .Search-Bar{
   grid-row: 2/3;
@@ -29,8 +29,8 @@
   grid-column: 1/3;
 }
 #searchbar{
-  width: 50vw;
-  height: 9vh;
+  width: 35vw;
+  height: 5vh;
   border-radius: 40px;
 }
 .Search{
@@ -50,4 +50,44 @@
   background: #bdbdbd;
   padding: 10px 10px 10px 10px;
   border-radius: 10px;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+li{
+  margin: 0 1.25vw 0 1.5vw;
+}
+footer{
+  background: #cbcbcb;
+}
+.topnavbar{
+  display: flex;
+  padding: 3vh 2vw 3vh 2vw;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bottom-footer-flexcontainer{
+display: flex;
+flex-direction: row;
+padding-top:2vh;
+justify-content: space-between;
+}
+footer{
+display: flex;
+flex-direction: column;
+position: absolute;
+padding: 2vh 2vw 2vh 2vw;
+bottom:0;
+border-top: gray solid 2px;
+width: 100vw;
+}
+.Circle-Photo{
+  border-radius: 50%;
+}
+.location{
+  padding-left: 1.5vw;
+  border-bottom: solid gray;
+  border-width: 1px;
 }
